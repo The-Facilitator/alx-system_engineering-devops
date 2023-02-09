@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -uv --include='*.html' --exclude='*' ./ ../ | grep -v 'up-to-date$'
+cp .html ../
